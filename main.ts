@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     basic.showNumber(reading)
-    basic.pause(200)
+    basic.pause(500)
     basic.showString("M")
 })
 let reading = 0
